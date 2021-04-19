@@ -1,4 +1,3 @@
-![Screenshot from 2021-04-19 07-47-51](https://user-images.githubusercontent.com/81610268/115183010-a7502580-a0e3-11eb-8691-4559d7d35c27.png)
 # Delani Studio
 
 [Check it out]()
@@ -9,11 +8,9 @@ Delani Studio is a site built to practice concepts learnt including JQuery, boot
 >Ernest Mucheru
 
 ## Screenshot.
-x-special/nautilus-clipboard
-copy
-file:///home/est/Pictures/Screenshot%20from%202021-04-19%2007-47-51.png
-file:///home/est/Pictures/Screenshot%20from%202021-04-19%2007-47-58.png
-file:///home/est/Pictures/Screenshot%20from%202021-04-19%2007-48-04.png
+![Screenshot from 2021-04-19 07-47-51](https://user-images.githubusercontent.com/81610268/115183157-eed6b180-a0e3-11eb-9d9d-25aeeb49fcae.png)
+![Screenshot from 2021-04-19 07-47-58](https://user-images.githubusercontent.com/81610268/115183199-fd24cd80-a0e3-11eb-9e0b-29f7833a08cd.png)
+![Screenshot from 2021-04-19 07-48-04](https://user-images.githubusercontent.com/81610268/115183209-ff872780-a0e3-11eb-9390-3f5e99694389.png)
 
 
 ## Setup.
