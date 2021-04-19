@@ -13,7 +13,7 @@ Delani Studio is a site built to practice concepts learnt including JQuery, boot
 ## Setup.
 To get a local copy of the site:
 
-`git clone `
+`git clone https://github.com/ernestmucheru/delani.git`
 
 `Extract` the cloned file.
 
