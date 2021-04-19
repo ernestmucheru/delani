@@ -1,6 +1,6 @@
 # Delani Studio
 
-[Check it out]()
+[Check it out](https://ernestmucheru.github.io/delani/)
 ## Description.
 Delani Studio is a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with mailchimp API.
 
