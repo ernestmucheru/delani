@@ -1,0 +1,232 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.banner{
+    background-image: url(/img/assets/backgrounds/h_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-family: poppins, sans-serif;
+}
+#logo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 170px;
+    height: 170px;
+}
+.banner h1{
+    padding: 2px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 3.5em;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: poppins, sans-serif;
+}
+.banner h2{
+    letter-spacing: 2px;
+    font-size: 3.5em;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+}
+.banner p{
+    padding: 2px;
+    font-size: 1em;
+    font-family: poppins, sans-serif;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*Landing page*/
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.overlay{
+    background-color:rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+.overlay >img, header-text{
+    position: relative;
+    top: 33%;
+}
+.header-text{
+    font-family: 'Roboto', sans-serif;
+}
+.header-text2{
+    font-family: 'Poppins', serif;
+}
+.mouse{
+    margin-top: 330px;
+}
+.jumbotron-fluid{
+    background-image: url(/img/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#mouse-click{
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+#mouse-click{
+    animation: bounce 3s infinite;
+}
+@keyframes mouse-click{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-55px);
+    }
+    60%{
+        transform: translateY(-54px);
+    }
+}
+.about{
+    margin-bottom: 70px;
+    
+}
+.about h3{
+    margin-top: 30px;
+    padding-bottom: 38px;
+}
+.about p{
+    margin-bottom: 50px;
+}
+.services{
+    background-image: url(/img/assets/backgrounds/s_image.jpg);
+    height: 280px;
+    color: #fff;
+    background-size: cover;
+}
+.services h3{
+    position: relative;
+    top:40px;
+    margin-bottom: 10px;
+    padding-bottom: 38px;
+}
+.services p{
+    position: relative;
+    top:20px;
+    margin-bottom: 50px;
+}
+.services-overlay{
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 280px;
+}
+.what-we-do{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+.what-we-do h3{
+    padding-bottom: 38px;
+}
+.what-we-do h4{
+    padding-bottom: 38px;
+    font-size: 20px;
+}
+.what-we-do .p-image{
+    padding-top: 10px;
+}
+#devText{
+    margin-top: 10px;
+}
+#desText{
+    margin-top: 10px;
+}
+#prodText{
+    margin-top: 10px;
+}
+#development{
+    display: none;
+}
+#design{
+    display: none;
+}
+#prod-management{
+    display: none;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.portImg{
+    float: right;
+    position:relative;
+    margin: 5px;
+}
+.portImg .porttext{
+    display: none;
+    opacity: 1;
+    background-color:rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
+.contacts{ 
+    background-image: url(/img/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.contacts h3{
+    position: relative;
+    top: 30px;
+    margin-bottom: 40px;
+}
+.text{
+    margin-bottom: 20px;
+}
+.contact-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.form-control{
+    background-color: #66000000;
+    color: #fff;
+}
+.name{
+    margin-right: 5px;
+}
+.email{
+    margin-right: 5px;
+}
+input.error{
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+textarea::placeholder{
+    color:#fff
+}
+.social{
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
