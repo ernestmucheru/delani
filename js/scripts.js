@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  /*What we do script*/
     $("#desImg").click(function(){
         $("#desImg").slideDown('1500').hide('1000');
         $("#desText").slideDown('1500').hide('1000');
@@ -29,12 +30,13 @@ $(document).ready(function(){
           $("#prodImg").slideDown('1500');
           $("#prodText").slideDown('1500');
       });
+      /*portfolio*/
      $('.portImg').hover(function(){
           $('.porttext',this).slideToggle('slow');
      }, function(){
          $('.porttext',this).slideToggle('slow');
       });
-
+      /*contact us form*/
       $("form#form").on('submit',function(event){
         event.preventDefault();
         var name = $("input#name").val();
@@ -47,6 +49,6 @@ $(document).ready(function(){
         else {
             alert("Please provide your correct name and email!");
         }
-
+      });
 
   });

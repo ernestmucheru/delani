@@ -192,6 +192,7 @@ body{
     padding: 30px;
     height: 100%;
 }
+/*contact us*/
 .contacts{ 
     background-image: url(/img/assets/backgrounds/c_image.jpg);
     background-position: center;
@@ -228,6 +229,7 @@ input.error{
 textarea::placeholder{
     color:#fff
 }
+/*socials*/
 .social{
     justify-content: center;
     padding-left: 10px;
