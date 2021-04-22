@@ -75,7 +75,7 @@ body{
     margin-top: 330px;
 }
 .jumbotron-fluid{
-    background-image: url(/img/assets/backgrounds/h_img.jpg);
+    background-image: url(img/assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body{
 }
 /*Services section*/
 .services{
-    background-image: url(/img/assets/backgrounds/s_image.jpg);
+    background-image: url(img/assets/backgrounds/s_image.jpg);
     height: 280px;
     color: #fff;
     background-size: cover;
@@ -194,7 +194,7 @@ body{
 }
 /*contact us*/
 .contacts{ 
-    background-image: url(/img/assets/backgrounds/c_image.jpg);
+    background-image: url(img/assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
