@@ -33,7 +33,7 @@ body{
     margin-top: 330px;
 }
 .jumbotron-fluid{
-    background-image: url('/img/assets/backgrounds/h_img.JPG');
+    background-image: url('./img/assets/backgrounds/h_img.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body{
 }
 /*Services section*/
 .services{
-    background-image: url('/img/assets/backgrounds/s_image.JPG');
+    background-image: url('./img/assets/backgrounds/s_image.JPG');
     height: 280px;
     color: #fff;
     background-size: cover;
@@ -152,7 +152,7 @@ body{
 }
 /*contact us*/
 .contacts{ 
-    background-image: url('/img/assets/backgrounds/c_image.JPG');
+    background-image: url('./img/assets/backgrounds/c_image.JPG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
